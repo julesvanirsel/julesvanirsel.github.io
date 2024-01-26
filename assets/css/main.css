@@ -2684,7 +2684,7 @@ input, select, textarea {
 
 		#banner h1 {
 			line-height: 0.5em;
-			padding: 3.5em 2em 0 0;
+			padding: 3.3em 2em 0 0;
 			text-align: right;
 			color: #eee;
 			font-family: Arial, Helvetica, sans-serif;
@@ -3312,10 +3312,11 @@ input, select, textarea {
 				#banner h1 {
 					padding: 0.4em 0 0 0;
 					text-align: center;
+					font-size: 18;
 				}
 
 				#banner h2 {
-					padding: 1em 0 0.5em 0;
+					padding: 1em 1em 0 0;
 				}
 
 		/* Wrapper */
