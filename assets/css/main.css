@@ -2684,12 +2684,23 @@ input, select, textarea {
 
 		#banner h1 {
 			line-height: 0.5em;
-			padding: 3em 10% 0 0;
+			padding: 3.5em 2em 0 0;
+			text-align: right;
 			color: #eee;
 			font-family: Arial, Helvetica, sans-serif;
-			font-weight: 1000;
+			font-weight: 700;
 			font-size: 4em;
 		}
+		
+		#banner h2 {
+			padding: 0.5em 0 0 0;
+			color: #888;
+			text-align: right;
+		}
+			#banner h2 em {
+				font-style: italic;
+			}
+		
 		#banner header {
 			position: absolute;
 			bottom: 0;
@@ -2881,6 +2892,10 @@ input, select, textarea {
 				height: 20em;
 			}
 
+				#banner h1 {
+					padding: 2.6em 1em 0 0;
+				}
+
 		/* Wrapper */
 
 			.wrapper {
@@ -2914,6 +2929,10 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 				line-height: 1.5em;
+			}
+
+			#banner h1 {
+				padding: 2.6em 1em 0 0;
 			}
 
 	}
@@ -2992,6 +3011,10 @@ input, select, textarea {
 			#banner {
 				height: 20em;
 			}
+
+				#banner h1 {
+					padding: 2.8em 0.5em 0 0;
+				}
 
 				#banner header h2 {
 					display: block;
@@ -3285,6 +3308,15 @@ input, select, textarea {
 			#banner {
 				height: 18em;
 			}
+
+				#banner h1 {
+					padding: 0.4em 0 0 0;
+					text-align: center;
+				}
+
+				#banner h2 {
+					padding: 1em 0 0.5em 0;
+				}
 
 		/* Wrapper */
 
